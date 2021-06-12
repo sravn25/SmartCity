@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Dropdown from "./Dropdown";
 import "./HeaderStyles.css";
 import Logo from "../images/logo.png";
 import Name from "../images/transparentName.png";
@@ -21,7 +21,7 @@ const Header = () => {
           </Col>
           <Col xs={2} md={1}>
             <div className="navbar">
-              <Navbar />
+              <Dropdown />
             </div>
           </Col>
         </Row>
