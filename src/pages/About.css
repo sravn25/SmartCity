@@ -1,0 +1,24 @@
+body {
+  color: black;
+}
+.intro {
+  background-image: url("../images/2377471.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  margin-top: 50px;
+  padding-bottom: 200px;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.text {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
