@@ -1,0 +1,19 @@
+.header {
+  /*background-color: #f2f2f2;*/
+  padding: 30px 10px;
+  margin: -1px -11px 10px -11px;
+  font-weight: bold;
+}
+
+.bg {
+  /*background-image: url("image");
+  background-color: #97ac68;*/
+  background-color: #aebe89;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  margin-top: 10px;
+}
