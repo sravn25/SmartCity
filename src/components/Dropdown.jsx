@@ -10,7 +10,9 @@ const Navbar = () => {
     <>
       <Dropdown>
         <Dropdown.Toggle id="menus" variant="#f2f2f2">
-          <img src="asd.png" alt="icon" />
+          <div>
+            <h4>Menus</h4>
+          </div>
         </Dropdown.Toggle>
 
         <Dropdown.Menu variant="secondary">
