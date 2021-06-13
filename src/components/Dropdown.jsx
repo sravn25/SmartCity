@@ -19,22 +19,22 @@ const Navbar = () => {
           <Dropdown.Item href="/" active>
             Home
           </Dropdown.Item>
-          <Dropdown.Item href="#2" active>
+          <Dropdown.Item href="/about" active>
             About Us
           </Dropdown.Item>
-          <Dropdown.Item href="#3" active>
+          <Dropdown.Item href="/projects" active>
             Projects
           </Dropdown.Item>
-          <Dropdown.Item href="#4" active>
+          <Dropdown.Item href="/commute" active>
             Commute
           </Dropdown.Item>
-          <Dropdown.Item href="#5" active>
+          <Dropdown.Item href="/news" active>
             News
           </Dropdown.Item>
-          <Dropdown.Item href="#6" active>
+          <Dropdown.Item href="/events" active>
             Events
           </Dropdown.Item>
-          <Dropdown.Item href="#7" active>
+          <Dropdown.Item href="/crime" active>
             Crime
           </Dropdown.Item>
         </Dropdown.Menu>
