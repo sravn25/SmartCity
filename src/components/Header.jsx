@@ -15,8 +15,10 @@ const Header = () => {
         <Row>
           <Col xs>
             <div className="header">
-              <img src={Logo} alt="logo" width="100px" height="100px" />
-              <img src={Name} alt="name" width="480px" height="100px" />
+              <a href="/" alt="home">
+                <img src={Logo} alt="logo" width="100px" height="100px" />
+                <img src={Name} alt="name" width="480px" height="100px" />
+              </a>
             </div>
           </Col>
         </Row>

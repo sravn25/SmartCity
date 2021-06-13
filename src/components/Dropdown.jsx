@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <>
       <Dropdown>
-        <Dropdown.Toggle id="menus" variant="#f2f2f2">
+        <Dropdown.Toggle id="menus" variant="">
           <div>
             <h4>Menus</h4>
           </div>
         </Dropdown.Toggle>
 
-        <Dropdown.Menu variant="secondary">
+        <Dropdown.Menu variant="success">
           <Dropdown.Item href="/" active>
             Home
           </Dropdown.Item>
@@ -34,8 +34,8 @@ const Navbar = () => {
           <Dropdown.Item href="/events" active>
             Events
           </Dropdown.Item>
-          <Dropdown.Item href="/crime" active>
-            Crime
+          <Dropdown.Item href="/report" active>
+            Report
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
