@@ -19,7 +19,10 @@ const Header = () => {
               <img src={Name} alt="name" width="480px" height="100px" />
             </div>
           </Col>
-          <Col xs={2} md={1}>
+        </Row>
+        <Row>
+          <Col xs={9} sm={10} md={10} lg={10} xl={11}></Col>
+          <Col xs={3} sm={2} md={2} lg={2} xl={1}>
             <div className="navbar">
               <Dropdown />
             </div>
