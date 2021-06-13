@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import Commute from "./pages/Commute";
 import News from "./pages/News";
 import Events from "./pages/Events";
+import Report from "./pages/Report";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -45,6 +46,12 @@ function App() {
         <Switch>
           <Route path="/events">
             <Events />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route path="/report">
+            <Report />
           </Route>
         </Switch>
       </div>
