@@ -20,25 +20,25 @@ const Footer = () => {
             <h4>Directory</h4>
             <ul>
               <li>
-                <a href="/">Content</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li>
-                <a href="/">Projects</a>
+                <a href="/projects">Projects</a>
               </li>
               <li>
-                <a href="/">Commute</a>
+                <a href="/commute">Commute</a>
               </li>
               <li>
-                <a href="/">News</a>
+                <a href="/news">News</a>
               </li>
               <li>
-                <a href="/">Events</a>
+                <a href="/events">Events</a>
               </li>
               <li>
-                <a href="/">Crime</a>
+                <a href="/crime">Crime</a>
               </li>
             </ul>
           </div>
