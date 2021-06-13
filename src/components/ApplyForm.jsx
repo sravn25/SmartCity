@@ -64,7 +64,7 @@ export default class ApplyForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} style={{marginTop:-50}}>
         <div>
           <input
             name="name"
