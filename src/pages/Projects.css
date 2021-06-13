@@ -1,0 +1,27 @@
+body {
+  /*
+  background-color: #89aebe;
+  background-color: #be8993;
+  */
+}
+
+.projects {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#submitted,
+#completed {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#completed {
+  text-align: center;
+}
+
+#completed > a:link,
+#completed > a:active {
+  color: black;
+}
