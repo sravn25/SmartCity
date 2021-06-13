@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
 
-import "./ApplyFormStyles.css";
+import "./FormStyles.css";
 
 const initialState = {
   name: "",
@@ -64,7 +64,7 @@ export default class ApplyForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit} style={{marginTop:-50}}>
+      <form onSubmit={this.handleSubmit} style={{ marginTop: -50 }}>
         <div>
           <input
             name="name"
