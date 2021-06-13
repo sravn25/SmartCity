@@ -5,6 +5,10 @@ import Container from "react-bootstrap/Container";
 // import Col from "react-bootstrap/Col";
 import "./About.css";
 
+import Paypal from "../images/paypal.png";
+import Patreon from "../images/patreon.png";
+import Kickstarter from "../images/kickstarter2.png";
+
 import ApplyForm from "../components/ApplyForm";
 
 export default class About extends Component {
@@ -55,6 +59,34 @@ export default class About extends Component {
         <p className="text">
           Support us by donating to us via one of the links below
           Patreon/Kickstarter/Paypal
+          <br />
+          <br />
+          <div>
+            <a
+              href="https://www.patreon.com/"
+              target="_blank"
+              rel="noreferrer"
+              alt="patreon"
+            >
+              <img src={Patreon} alt="PayPal" width="48px" height="48px" />
+            </a>
+            <a
+              href="https://www.kickstarter.com/"
+              target="_blank"
+              rel="noreferrer"
+              alt="kickstarter"
+            >
+              <img src={Kickstarter} alt="PayPal" width="48px" height="48px" />
+            </a>
+            <a
+              href="https://www.paypal.com/my/home"
+              target="_blank"
+              rel="noreferrer"
+              alt="paypal"
+            >
+              <img src={Paypal} alt="PayPal" width="48px" height="48px" />
+            </a>
+          </div>
         </p>
         <hr />
         <h3>Contact Us</h3>
