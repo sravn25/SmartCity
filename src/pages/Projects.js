@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Countup from "react-countup";
 
-import ProposalForm from "../components/ProposalForm";
+import Form from "../components/Form";
 
 import "./Projects.css";
 import Container from "react-bootstrap/Container";
@@ -236,7 +236,7 @@ const Projects = () => {
                 Expand
               </Button>
             </Col>
-            <Col>{visible ? <ProposalForm /> : null}</Col>
+            <Col>{visible ? <Form /> : null}</Col>
           </Row>
         </div>
       </Container>
