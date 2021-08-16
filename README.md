@@ -4,9 +4,6 @@
 
 ## Topic : Sustainable and Smart City
 
-[Smart+](https://romantic-raman-fc9239.netlify.app/)\
-Deployed on Netlify
-
 ## Pages
 
 1. Home
